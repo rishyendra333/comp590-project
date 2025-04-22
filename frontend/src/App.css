@@ -1,0 +1,64 @@
+/* frontend/src/App.css */
+.App {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.App-header {
+  background-color: #1976d2;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .MuiBox-root {
+    flex-direction: column !important;
+  }
+  
+  .MuiGrid-root {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Chart styling */
+.js-plotly-plot {
+  margin: 0 auto;
+}
+
+/* Table styling */
+.MuiTableCell-root {
+  font-size: 14px;
+}
+
+.MuiTableCell-head {
+  font-weight: 600;
+  background-color: #f0f0f0;
+}
+
+/* Accordion styling */
+.MuiAccordion-root {
+  margin-bottom: 8px;
+  border-radius: 4px !important;
+}
+
+.MuiAccordion-root:before {
+  display: none;
+}
+
+.MuiAccordionSummary-root {
+  background-color: #f8f8f8;
+}
+
+/* Form styling */
+.MuiTextField-root {
+  background-color: white;
+}
